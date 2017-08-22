@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+#header {
+  /* padding: 154px 0 100px; */
+  margin-top:50px;
+  background-image: url("../img/berkeley-skyline.jpg");
+  background-position: center; 
+  background-size: cover;
+}
+
+#events {
+  /* padding: 154px 0 100px; */
+  background-image: url("../img/build-night.jpg");
+  background-position: center; 
+  background-size: cover;
+}
+
+/* @media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+} */
+
+#apply {
+  text-align: center;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.img-container {
+  position: relative;
+  width: 50%;
+}
+
+.img-effects {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.img-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
