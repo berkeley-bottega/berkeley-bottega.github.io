@@ -10,6 +10,7 @@
   background-image: url("../img/berkeley-skyline.jpg");
   background-position: center; 
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #events {
@@ -17,6 +18,7 @@
   background-image: url("../img/build-night.jpg");
   background-position: center; 
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* @media (min-width: 992px) {
@@ -30,6 +32,7 @@
   background-image: url("../img/trailer.jpg");
   background-position: center; 
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #apply {
